@@ -166,26 +166,48 @@
   </header>
 
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: August 28, 2026</p>
+  <p class="updated">Last updated: October 13, 2026</p>
 
   <div class="lead">
     <p>Numbra is a number puzzle game published by <strong>Pixerion</strong>.
     We do not ask you to create an account, and we do not collect your name,
-    email address, or any other information that identifies you personally.</p>
-    <p>Your game progress stays on your device. The only data that leaves your
-    device is what our advertising partner needs to show ads.</p>
+    email address or account profile.</p>
+    <p>Your saved game progress stays on your device. Advertising services may
+    process device and interaction data. If you choose to enable analytics,
+    Google Analytics for Firebase also receives pseudonymous app usage events.</p>
   </div>
 
   <h2>Data stored on your device</h2>
   <p>Numbra saves the following locally so the game remembers where you left
-  off. It is never uploaded to us:</p>
+  off. These saved files are not uploaded; selected usage events may be measured
+  separately when you allow analytics:</p>
   <ul>
     <li>Completed levels, stars earned, and hint tokens</li>
     <li>Daily puzzle results and your streak</li>
     <li>Achievements you have unlocked</li>
-    <li>Your settings: theme, language, sound and vibration preferences</li>
+    <li>Your settings: theme, language, sound, vibration and analytics preferences</li>
   </ul>
   <p>Uninstalling the app deletes all of it permanently.</p>
+
+  <h2 id="analytics">Optional analytics</h2>
+  <p>On first launch, Numbra asks whether you want to allow usage analytics.
+  The choice is optional and can be changed in <strong>Settings → Usage analytics</strong>.
+  Analytics collection is disabled until you explicitly allow it. Declining
+  analytics does not restrict gameplay or rewards.</p>
+  <p>If enabled, Google Analytics for Firebase measures screens visited, level
+  starts, completions and exits, solve duration, wrong-answer counts, hint use,
+  newly unlocked achievements and ad impressions, clicks, rewards and
+  SDK-reported revenue. Google also processes a generated app-instance
+  identifier, device/app version and language, session activity and approximate
+  location derived from network information. We use these reports to understand
+  difficult puzzles, improve the game and evaluate ad placements.</p>
+  <p>We do not send your name, email, answer text, account profile or saved game
+  files to Analytics. Analytics advertising ID collection and advertising
+  personalization are disabled. AdMob advertising consent is a separate choice.</p>
+  <p>Turning analytics off stops future collection and resets the local
+  Analytics identifier and data. Previously transmitted data is subject to
+  Google's retention and deletion controls; changing the switch does not
+  automatically erase historical server reports.</p>
 
   <h2>Advertising</h2>
   <p>Numbra is free and supported by ads served through
@@ -213,6 +235,12 @@
       <td>Ad interactions</td>
       <td>Impressions, clicks, rewarded ad completions</td>
     </tr>
+    <tr>
+      <td>App interactions and diagnostics</td>
+      <td>Advertising-related interaction events, crash reports, performance
+      information and other diagnostics used to maintain and improve the
+      advertising services</td>
+    </tr>
   </table>
 
   <p>This data is handled by Google under its own privacy policy:
@@ -234,11 +262,18 @@
   device settings: <strong>Settings → Google → Ads</strong> on most Android
   devices. Declining personalised ads does not restrict any part of the game —
   the ads you see simply become less relevant.</p>
+  <p>On iPhone and iPad, you can manage tracking permission in
+  <strong>Settings → Privacy &amp; Security → Tracking</strong>. Numbra requests
+  Apple's tracking permission before allowing advertising tracking. You can
+  decline tracking and continue playing. Google determines which ads may be
+  requested based on the applicable consent choices and device permissions.</p>
 
   <h2>Permissions</h2>
-  <p>Numbra requests only the <code>INTERNET</code> and
-  <code>ACCESS_NETWORK_STATE</code> permissions, and only so that ads can load.
-  The game itself works fully offline. Numbra does not access your camera,
+  <p>On Android, Numbra uses <code>INTERNET</code> and
+  <code>ACCESS_NETWORK_STATE</code> so ads and optional analytics can work. On iPhone and iPad, Numbra
+  may ask for permission to track activity for advertising through Apple's
+  App Tracking Transparency prompt. The game itself works fully offline.
+  Numbra does not access your camera,
   microphone, contacts, photos, files, or precise location.</p>
 
   <h2>Children</h2>
@@ -248,14 +283,15 @@
   contact us and we will address it promptly.</p>
 
   <h2>Data security and retention</h2>
-  <p>Because game data never leaves your device, there is no server-side copy
-  to breach or retain. Advertising data is retained by Google according to its
-  own retention policies.</p>
+  <p>Saved progress remains on your device. Optional analytics events are held
+  by Google in our Firebase/Analytics project, where we can review usage reports.
+  Advertising data is held by Google AdMob. These services apply their own
+  security safeguards and the applicable retention settings and policies.</p>
 
   <h2 id="data-deletion">How to delete your data</h2>
-  <p>Numbra, published by Pixerion, stores all of your data locally on your
-  device. There is no Pixerion account and no Pixerion server holding a copy,
-  so you can delete everything yourself at any time.</p>
+  <p>Numbra has no player account. You can delete saved game data on your
+  device and stop future analytics collection from the app. Remote analytics
+  and advertising data are handled separately as described below.</p>
 
   <p><strong>Delete your game data from inside the app</strong></p>
   <ol>
@@ -265,12 +301,20 @@
     <li>Confirm in the dialog that appears</li>
   </ol>
   <p>This permanently deletes your completed levels, stars, hint tokens, daily
-  puzzle results, streak, achievements and settings. It cannot be undone, and
-  nothing is retained afterwards.</p>
+  puzzle results, streak and achievements. Your preferences, including analytics
+  consent, are retained. It cannot be undone, and does not automatically delete data already held by Google.</p>
 
   <p><strong>Delete everything</strong></p>
   <p>Uninstalling Numbra removes the app and every file it created, including
-  all of the data listed above. Nothing survives the uninstall.</p>
+  the locally saved game data. Google may retain previously transmitted
+  analytics or advertising data under its policies.</p>
+
+  <p><strong>Analytics data</strong></p>
+  <p>Disable <strong>Settings → Usage analytics</strong> to stop future
+  collection and reset local Analytics data. For a request concerning previously
+  transmitted analytics data, contact us using the address below. We may need
+  information sufficient to locate the pseudonymous installation record; we do
+  not maintain an email-to-player profile.</p>
 
   <p><strong>Advertising data</strong></p>
   <p>Data collected by Google AdMob for advertising is held by Google, not by
@@ -278,16 +322,22 @@
   advertising ID from your device settings — on most Android devices,
   <strong>Settings → Google → Ads</strong>. Google's own retention policies
   then apply.</p>
+  <p>On iPhone and iPad, withdraw tracking permission in
+  <strong>Settings → Privacy &amp; Security → Tracking</strong>. To manage or
+  request deletion of data retained by Google, use the controls and contact
+  information in Google's privacy policy.</p>
 
   <p><strong>Ask us instead</strong></p>
   <p>If you would prefer that we handle a deletion request, email
   <a href="mailto:pixerion.dev@gmail.com">pixerion.dev@gmail.com</a> with the
-  subject line <em>Data deletion request</em>. Because we hold no personal data
-  about you, we will reply confirming that nothing of yours exists on our side
-  and walk you through the steps above. We answer within 30 days.</p>
+  subject line <em>Data deletion request</em>. We will explain the local deletion steps and review whether we can identify
+  and address any applicable pseudonymous analytics record. We answer within
+  30 days.</p>
 
   <h2>Third-party services</h2>
   <ul>
+    <li><strong>Google Analytics for Firebase</strong> — optional usage measurement —
+      <a href="https://policies.google.com/privacy" rel="noopener">Privacy Policy</a></li>
     <li><strong>Google AdMob</strong> — advertising —
       <a href="https://policies.google.com/privacy" rel="noopener">Privacy Policy</a></li>
     <li><strong>Google User Messaging Platform (UMP)</strong> — consent
@@ -297,9 +347,9 @@
   <h2>Changes to this policy</h2>
   <p>If this policy changes, the updated version will be published at this
   address with a new "Last updated" date. Significant changes will also be
-  noted in the app's release notes on Google Play.</p>
+  noted in the app's release notes on Google Play or the App Store.</p>
 
-  <h2>Contact</h2>
+  <h2 id="contact">Contact</h2>
   <div class="contact">
     <p><strong>Pixerion</strong></p>
     <p>Email: <a href="mailto:pixerion.dev@gmail.com">pixerion.dev@gmail.com</a></p>
